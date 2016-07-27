@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 13.125" name="baglanti">
+  <DataContextMoniker Name="/baglantiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0513ca7-ec03-4779-a39e-e90f2b27f8c9" absoluteBounds="3.5, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/baglantiDataContext/kira" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aff5290d-95ec-4854-b784-e0c624e03fcb" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e20e296-b5ae-444a-8d4f-81e911d3b54d" absoluteBounds="1.5, 11.625, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/baglantiDataContext/marka" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1fef481-7dbe-4f49-a32d-c010efc702a8" absoluteBounds="1.5150000000000001, 12.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="424f2eaa-f269-4d48-8504-a2aa0c544eba" absoluteBounds="1.5, 7.875, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/baglantiDataContext/araba" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfd86ac1-7915-4074-b695-57286e94f4a0" absoluteBounds="1.5150000000000001, 8.335, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.59375 : 7.875); (1.59375 : 1.82774983723958); (3.5 : 1.82774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/baglantiDataContext/araba/araba_kira" />
+      <nodes>
+        <classShapeMoniker Id="424f2eaa-f269-4d48-8504-a2aa0c544eba" />
+        <classShapeMoniker Id="c0513ca7-ec03-4779-a39e-e90f2b27f8c9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 11.625); (2.5 : 11.1843082682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/baglantiDataContext/marka/marka_araba" />
+      <nodes>
+        <classShapeMoniker Id="7e20e296-b5ae-444a-8d4f-81e911d3b54d" />
+        <classShapeMoniker Id="424f2eaa-f269-4d48-8504-a2aa0c544eba" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="26089ac7-9239-45ee-9ff1-b5b1cf1d688d" absoluteBounds="4.75, 5.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/baglantiDataContext/odeme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cc7df36-0360-4538-9084-26ad08294e34" absoluteBounds="4.765, 5.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 2.90549967447917); (5.125 : 5.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/baglantiDataContext/kira/kira_odeme" />
+      <nodes>
+        <classShapeMoniker Id="c0513ca7-ec03-4779-a39e-e90f2b27f8c9" />
+        <classShapeMoniker Id="26089ac7-9239-45ee-9ff1-b5b1cf1d688d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f20a42a2-b56e-45ae-864e-0ab3ab2fdf6b" absoluteBounds="1.75, 5.25, 2, 3.1170068359375">
+      <DataClassMoniker Name="/baglantiDataContext/musteri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="558323eb-c4dd-425d-bfc0-a2b1a1d20d25" absoluteBounds="1.7650000000000001, 5.71, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5937475 : 5.25); (2.5937475 : 2.39787725585937); (3.5 : 2.39787725585937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/baglantiDataContext/musteri/musteri_kira" />
+      <nodes>
+        <classShapeMoniker Id="f20a42a2-b56e-45ae-864e-0ab3ab2fdf6b" />
+        <classShapeMoniker Id="c0513ca7-ec03-4779-a39e-e90f2b27f8c9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.75 : 6.07294840494792); (4.75 : 6.07294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/baglantiDataContext/musteri/musteri_odeme" />
+      <nodes>
+        <classShapeMoniker Id="f20a42a2-b56e-45ae-864e-0ab3ab2fdf6b" />
+        <classShapeMoniker Id="26089ac7-9239-45ee-9ff1-b5b1cf1d688d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

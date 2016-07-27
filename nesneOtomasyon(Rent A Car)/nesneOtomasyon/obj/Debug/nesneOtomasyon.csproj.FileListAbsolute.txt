@@ -1,0 +1,44 @@
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\bin\Debug\nesneOtomasyon.exe.config
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\bin\Debug\nesneOtomasyon.exe
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\bin\Debug\nesneOtomasyon.pdb
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.csprojResolveAssemblyReference.cache
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.anaSayfa.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.Properties.Resources.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.csproj.GenerateResource.Cache
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.exe
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.pdb
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.acilis.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.arabaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\bin\Debug\rentAcar.mdf
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\bin\Debug\rentAcar_log.ldf
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.markaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.kiraIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.kiraDurum.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.faturaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriSecim.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.sorgulamaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriBilgi.resources
+C:\Users\exper\Desktop\nesneOtomasyon\nesneOtomasyon\obj\Debug\nesneOtomasyon.notAl.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\bin\Debug\nesneOtomasyon.exe.config
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.exe
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.pdb
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\bin\Debug\rentAcar.mdf
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\bin\Debug\rentAcar_log.ldf
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\bin\Debug\nesneOtomasyon.exe
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\bin\Debug\nesneOtomasyon.pdb
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.csprojResolveAssemblyReference.cache
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.acilis.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.anaSayfa.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.arabaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriBilgi.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.notAl.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.sorgulamaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.faturaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.kiraDurum.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.kiraIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.markaIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriIslemleri.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.musteriSecim.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.Properties.Resources.resources
+C:\Users\exper\Desktop\nesneOtomasyon(Rent A Car)\nesneOtomasyon\obj\Debug\nesneOtomasyon.csproj.GenerateResource.Cache

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="rentAcar" Class="baglantiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=rentAcar;Integrated Security=True" SettingsObjectName="nesneOtomasyon.Properties.Settings" SettingsPropertyName="rentAcarConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.kira" Member="kiras">
+    <Type Name="kira">
+      <Column Name="kiraNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="plakaNo" Type="System.String" DbType="NChar(9)" CanBeNull="true" />
+      <Column Name="kimlikNo" Type="System.String" DbType="NChar(11)" CanBeNull="true" />
+      <Column Name="kiraTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gelisTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="hasarDurum" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="durum" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Association Name="kira_odeme" Member="odemes" ThisKey="kiraNo" OtherKey="kiraNo" Type="odeme" />
+      <Association Name="araba_kira" Member="araba" ThisKey="plakaNo" OtherKey="plakaNo" Type="araba" IsForeignKey="true" />
+      <Association Name="musteri_kira" Member="musteri" ThisKey="kimlikNo" OtherKey="kimlikNo" Type="musteri" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.marka" Member="markas">
+    <Type Name="marka">
+      <Column Name="markaNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="markaAdi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="marka_araba" Member="arabas" ThisKey="markaNo" OtherKey="markaNo" Type="araba" />
+    </Type>
+  </Table>
+  <Table Name="dbo.araba" Member="arabas">
+    <Type Name="araba">
+      <Column Name="plakaNo" Type="System.String" DbType="NChar(9) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ruhsatNo" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="markaNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cins" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="yakit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sase" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="sigortaTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="kaskoTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="vizeTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="band" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="aciklama" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="silmeDurum" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Association Name="araba_kira" Member="kiras" ThisKey="plakaNo" OtherKey="plakaNo" Type="kira" />
+      <Association Name="marka_araba" Member="marka" ThisKey="markaNo" OtherKey="markaNo" Type="marka" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.odeme" Member="odemes">
+    <Type Name="odeme">
+      <Column Name="odemeNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kiraNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kimlikNo" Type="System.String" DbType="NChar(11)" CanBeNull="true" />
+      <Column Name="odemeTutar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="odemeSekli" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Association Name="kira_odeme" Member="kira" ThisKey="kiraNo" OtherKey="kiraNo" Type="kira" IsForeignKey="true" />
+      <Association Name="musteri_odeme" Member="musteri" ThisKey="kimlikNo" OtherKey="kimlikNo" Type="musteri" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.musteri" Member="musteris">
+    <Type Name="musteri">
+      <Column Name="kimlikNo" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="adSoyad" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="dogumTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="adres" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="babaAdi" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="kanGrup" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="ehliyetNo" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Column Name="ehliyetTip" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="ehliyetTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="telefon" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="silmeDurumu" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Association Name="musteri_kira" Member="kiras" ThisKey="kimlikNo" OtherKey="kimlikNo" Type="kira" />
+      <Association Name="musteri_odeme" Member="odemes" ThisKey="kimlikNo" OtherKey="kimlikNo" Type="odeme" />
+    </Type>
+  </Table>
+</Database>
